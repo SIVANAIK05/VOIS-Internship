@@ -1,0 +1,68 @@
+SEASONAL AGRICULTURE PERFORMANCE ANALYSIS
+===========================================
+
+DATASET
+-------
+Rows: 4,000
+Columns: 28
+Rows after cleaning: 4,000
+Duplicates removed: 0
+
+MISSING VALUES IMPUTED
+----------------------
+- Rainfall_mm: 48
+- Soil_Moisture_pct: 40
+- Yield_Tonnes_Ha: 32
+
+KEY FINDINGS
+------------
+1. Highest average yield season: Kharif
+   Average yield: 5.63 tonnes/ha
+
+2. Lowest average yield season: Zaid
+   Average yield: 4.64 tonnes/ha
+
+3. Highest average profit season: Kharif
+   Average profit: ₹178,914.65
+
+4. Highest average-profit crop: Sugarcane
+   Average profit: ₹817,187.99
+
+5. Lowest average-profit crop: Wheat
+   Average profit: ₹-123,398.34
+
+6. Highest average-yield state: Punjab
+   Average yield: 6.12 tonnes/ha
+
+7. Highest average water-efficiency season: Kharif
+   Efficiency: 5.89 tonnes per 1,000 m³
+
+STRONGEST OBSERVED ASSOCIATIONS WITH YIELD
+------------------------------------------
+Water_Efficiency_t_per_1000m3    0.912568
+Production_Tonnes                0.882813
+Profit_INR                       0.488466
+Revenue_INR                      0.432152
+Water_Used_m3                    0.386294
+
+STRONGEST OBSERVED ASSOCIATIONS WITH PROFIT
+-------------------------------------------
+Revenue_INR                      0.887331
+Production_Tonnes                0.554172
+Water_Efficiency_t_per_1000m3    0.489487
+Yield_Tonnes_Ha                  0.488466
+Market_Price_INR_Tonne           0.225119
+
+INTERPRETATION NOTE
+-------------------
+Correlation describes observed association and does not establish causation.
+
+RECOMMENDATIONS
+---------------
+1. Use seasonal yield and profitability comparisons to support crop planning.
+2. Focus water-management improvements on lower-efficiency seasons or crops.
+3. Investigate lower-performing regions for soil, irrigation, climate or operational differences.
+4. Combine environmental indicators with production and cost information for planning.
+5. Extend the dataset with historical weather, soil and market-price data.
+6. Build an interactive BI dashboard for decision-makers.
+7. Explore predictive models only after establishing a reliable analytical baseline.
